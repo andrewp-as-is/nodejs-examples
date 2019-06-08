@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+fs = require('fs');
+path = require('path');
+filename = path.basename(__filename);
+fs.readFile(filename,'utf8',function(err,data) {
+    if (err) {
+        return console.log(err);
+    }
+    console.log(data);
+});

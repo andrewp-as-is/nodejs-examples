@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var cheerio = require('cheerio')
+$ = cheerio.load('<title>title example</title>');
+
+
+title=$('title').html() // page title
+console.log(title);
+//=> <h2 class="title welcome">Hello there!</h2>

@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+str=" text "
+log = str.trim()
+console.log(log);

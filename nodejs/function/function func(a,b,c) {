@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+function func(a,b,c) {
+	console.log("func");
+}
+func(1,2,3)

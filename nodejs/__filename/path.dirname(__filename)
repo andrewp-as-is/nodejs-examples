@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var path = require("path")
+dir = path.dirname(__filename)
+console.log(dir)

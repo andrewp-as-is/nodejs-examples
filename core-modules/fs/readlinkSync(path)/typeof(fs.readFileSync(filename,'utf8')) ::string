@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+fs = require('fs');
+filename = '/etc/hosts';
+content = fs.readFileSync(filename,'utf8');
+console.log(typeof(content)); //string

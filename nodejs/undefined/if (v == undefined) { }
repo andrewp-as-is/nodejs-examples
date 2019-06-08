@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+v = undefined
+
+if (v == undefined) {
+	console.log(v)
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+v = undefined
+console.log(v)

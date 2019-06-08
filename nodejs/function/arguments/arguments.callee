@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+function func() {
+	console.log(arguments.callee);
+	console.log(arguments.callee.toString());
+	console.log(arguments.callee.toString().match(/function ([^\(]+)/)[1]);
+}
+func()
+

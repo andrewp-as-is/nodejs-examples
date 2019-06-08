@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+http = require("http");
+
+url = "http://www.w3schools.com/css/css_background.asp";
+http.get(url, function(res) {
+	console.log("status: " + res.statusCode);
+	res.on('data', function (chunk) {
+    console.log('BODY: ' + chunk);
+  });
+}).on('error', function(e) {
+  console.log("Got error: " + e.message);
+});

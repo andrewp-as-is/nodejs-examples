@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+http = require("http");
+
+var options = {
+  host: 'www.rambler.ru'
+};
+
+http.get(options, function(res) {
+	console.log(typeof res);
+  console.log("Got response: " + res.statusCode);
+}).on('error', function(e) {
+  console.log("Got error: " + e.message);
+});

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+node <<EOF
+console.log("hello world");
+EOF

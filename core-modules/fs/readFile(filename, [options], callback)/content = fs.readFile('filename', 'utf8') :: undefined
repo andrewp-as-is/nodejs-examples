@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+fs = require('fs');
+filename = '/etc/hosts';
+content = fs.readFile(filename,'utf8');
+console.log(content); // undefined

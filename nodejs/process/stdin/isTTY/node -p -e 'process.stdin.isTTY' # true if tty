@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+node -p -e 'process.stdin.isTTY' # true if tty
+node -p -e 'Boolean(process.stdin.isTTY)' # true if tty

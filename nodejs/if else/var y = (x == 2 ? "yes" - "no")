@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+x=3
+var y = (x == 2 ? "yes" : "no");
+console.log(y);
